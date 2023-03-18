@@ -1,4 +1,6 @@
 # encoding:utf-8
+import os
+os.system('pip install -r requirement.txt')
 
 import config
 from channel import channel_factory
