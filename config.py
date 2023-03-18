@@ -28,7 +28,6 @@ def load_config():
             "open_ai_api_key": os.getenv("open_ai_api_key", "YOUR API KEY"),
             "model": os.getenv("model", "gpt-3.5-turbo"),
             "single_chat_prefix": os.getenv("single_chat_prefix", "bot @bot").split(),
-            "single_chat_reply_prefix": os.getenv("single_chat_reply_prefix", "bot @bot").split(),
             "group_chat_prefix": os.getenv("group_chat_prefix", "bot @bot").split(),
             "group_name_white_list": os.getenv("group_name_white_list", "ChatGPT测试群 ChatGPT测试群2").split(),
         }
